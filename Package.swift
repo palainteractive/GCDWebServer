@@ -29,16 +29,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "GCDWebServers",
+    name: "GCDWebServer",
     platforms: [.macOS(.v10_10),
       .iOS(.v9),
       .tvOS(.v9)],
     products: [
-      .library(name: "GCDWebServers", targets: ["GCDWebServers"])
+      .library(name: "GCDWebServer", targets: ["GCDWebServer"])
     ],
     targets: [
         .target(
-            name: "GCDWebServers",
+            name: "GCDWebServer",
             dependencies: [],
             path: "GCDWebServer",
             cSettings: [
